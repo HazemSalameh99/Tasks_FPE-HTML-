@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Fill in Your information</h2>
+    <form action="" method="post" >
+        <fieldset> <legend>Form</legend>
+        <label for="fName">First Name:</label><br>
+        <input type="text" id="fName" name="fName"><br>
+        <label for="lName">Last Name:</label><br>
+        <input type="text" id="lName" nam="lName"><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" id="Email" name="Email" required><br>
+        
+        <h3>Your Gender</h3>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <labe for="Female">Female</labe>
+        <h3>Favorite Subjects</h3>
+        <input type="checkbox" id="favorite1" name="favorite1" value="C++">
+        <label for="favorite1">C++</label>
+        <input type="checkbox" id="favorite2" name="favorite2" value=Java>
+        <label for="favorite2">Java</label>
+        <input type="checkbox" id="favorite3" name="favorite3" value="C#">
+        <label for="favorite3">C#</label>
+        <input type="checkbox" id="favorite4" name="favorite4" value="PHP">
+        <label for="favorite4">PHP</label>
+        <input type="checkbox" id="favorite5" name="favorite5" value="SQL">
+        <label for="favorite5">SQL</label>
+        <h3>Your City</h3>
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="irbid">Irbid</option>
+            <option value="amman">Amman</option>
+            <option value="aqaba">Aqaba</option>
+        </select><br><br>
+        <label for="upload">Upload Image:</label>
+        <input type="file" id="upload" name="upload"> <br>
+        <label for="yourself">Write About Yourself</label><br>
+        <textarea id="yourself" name="yourself" maxlength="500"></textarea><br>
+        <input type="submit">
+    </fieldset>
+    </form>
+    <hr>
+    <form action="" method="post">
+        <label for="name">Name:</label> &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="name" name="name"><br><br>
+        <label for="address">Address:</label>&nbsp;&nbsp;
+        <input type="text" id="address" name="address"><br><br>
+        <label for="city">City:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="city" name="city"><br><br>
+        <label for="state">State:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="state" name="state" size="10"><br><br>
+        <label for="zip">Zip:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="zip" name="zip" size="10"><br><br>
+        <label for="magazine">Magazine:</label>&nbsp;&nbsp;
+        <select id="magazine" name="magazine">
+            <option value="newsweek">Newsweek</option>
+            <option value="newsday">Newsday</option>
+            <option value="newsmonth">Newsmonth</option>
+        </select><br><br>
+        <label for="subscription">Subscription:</label>
+        <input type="radio" id="1year" name="subscription" value="1year">
+        <label for="1year">1 Year</label>
+        <input type="radio" id="2year" name="subscription" value="2year">
+        <label for="2year">2 Year</label><br><br>
+        <input type="submit" value="Send Your Order">
+
+
+
+    </form>
+</body>
+</html>
